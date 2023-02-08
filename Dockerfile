@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 debian:bullseye-slim
+FROM debian:bullseye-slim
 
 RUN apt-get -y update && \
 	apt-get install -y \
